@@ -8,7 +8,10 @@ Due to the nature of Java, certain elements of a Java program are going to be ta
 
 This section covers the following material:
 
-- 
+- `while` Loops
+- Finite `while` Loops
+- Interactions with `return`
+- Standard Algorithms
 
 To use this repository, start with the `notes.md` document, referencing the various `.java` documents as you go to see the examples in action.
 
