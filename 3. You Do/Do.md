@@ -1,16 +1,13 @@
 # You Do
 
-Your parent sends you to the store with some money to potentially buy a new TV. They give you some stipulations though:
-- You can buy the TV outright if it is under $500.
-- You can buy the TV if it is 4K if it is under $750.
-- You can buy the TV if it is 4K and on sale if it is under $1000 (before the sale).
+Use the knowledge from the standard algorithms in the notes to finish the `divisibleNumbers` and `nonDivisibleNumbers` methods.
 
-Make a String variable called `resolution` and set it initially to `"1080p"`.
+The goal of the `divisibleNumbers` method is that given a positive integer value, it prints each whole integer value that divides the provided number, if any. i.e. `divisibleNumbers(15)` would print out `1`, `3`, `5`, and `15`, and `divisibleNumbers(24)` would print out `1`, `2`, `3`, `4`, `6`, `8`, `12`, and `24`.
 
-Make a boolean variable called `isOnSale` and set it initially to `false`.
+The goal of the `nonDivisibleNumbers` method is that given a positive integer value, it prints each whole integer value that does not divide the provided number and is less than the provided number, if any. i.e. `nonDivisibleNumbers(8)` would print out `3`, `5`, and `7`, and `nonDivisibleNumbers(11)` would print out `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, and `10`.
 
-Make an integer variable called `price` and set it initially to `800`.
+Both of these methods are `void` and should not use `return`, only printing!
 
-Use `if` blocks to determine if someone can buy a TV based on the requirements listed above. We should be able to modify the values of any of the variables above to potentially change the output, so you have to program all the options.
+Note that there are pre-loaded tests in the main method. When done correctly, the file should run and print the expected answers.
 
 Once you have gotten to just warnings, save the Java file and commit and push your changes via GitHub Desktop.
